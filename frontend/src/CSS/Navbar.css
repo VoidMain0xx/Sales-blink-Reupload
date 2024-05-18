@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+.Task-Container{
+    background-color: rgb(40,40,41);
+    color: rgb(198,198,198);
+    display : flex;
+    justify-content: flex-start;
+    display: flex;           /* Enables Flexbox layout */
+    flex-direction: column;  /* Stacks items vertically */
+    justify-content: start; /* Aligns items along the main axis (vertical in this case) */
+    align-items: start;     
+    line-height: 5px;
+}
+
+.task-item{
+    margin-left: 30px;
+}
